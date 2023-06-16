@@ -1,11 +1,12 @@
 # ******************************************************************************************
-# FileName     : 01._uart_led_switch.py
+# FileName     : 02._uart_led_switch.py
 # Description  : 시리얼 통신으로 '3', '4' 문자를 받으면 파랑 또는 녹색 LED를 깜밖임
 # Author       : 손철수
 # Created Date : 2023.06.16
 # Reference    : 주의1. pyserial 모듈을 import 해야 함
-# Reference    : 주의2. 코딩한 후에 시리얼 통신을 위하여 Thonny가 시리얼 통신 포트를 disconnect
-# Reference    : 주의3. ETboard의 reset 버튼을 눌러야 Thonny가 ETboard를 connect 함
+# Reference    : 주의2. 코딩한 후에 PC와 USB 시리얼 통신을 위하여
+#                       Thonny가 시리얼 통신 포트 disconnect
+# Reference    : 주의3. ETboard의 reset 버튼을 눌러야 Thonny가 다시 ETboard를 connect 함
 # Modified     : 
 # ******************************************************************************************
 
