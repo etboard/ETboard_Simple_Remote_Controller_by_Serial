@@ -3,9 +3,9 @@
 
 
 ## 개발 환경 
-1. MicroPython
--. Thonny
--. 이티보드 홈페이지 참고
+1. MicroPython   
+-. Thonny   
+-. 이티보드 홈페이지 참고   
  
 
 2. Python: 
