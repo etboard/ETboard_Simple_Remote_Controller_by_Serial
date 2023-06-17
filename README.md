@@ -14,15 +14,11 @@
 -. 중요 모듈: pySerial
  
 ### 하드웨어
-- ETboard V1.1 이상
+-. ETboard V1.1 이상
 
 
 ### 프로그램
-1. USB 시리얼 통신 테스트
-   1. ETboard, Thonny, MicroPython
-   2. 소스: src/ETboard/01_uart_simple.py
-   3. Thonny에서 위의 소스를 실행시킨다.
-   4. 
+-.
    
 
 ### Reference
