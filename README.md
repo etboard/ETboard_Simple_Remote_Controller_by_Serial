@@ -1,8 +1,8 @@
-# ETboard USB 시리얼 통신
+# ETboard USB(시리얼) 데이터 통신
 - 파이썬 및 마이크로파이썬 
 
 
-## 개발 환경
+### 개발 환경
 1. ETboard  
 -. MicroPython v1.16  
 -. Thonny v3.3.11 <- 중요 :warning:    
