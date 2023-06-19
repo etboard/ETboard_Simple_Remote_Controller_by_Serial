@@ -1,7 +1,7 @@
 # ETboard - USB 데이터 통신
-- PC와 ETboard를 USB로 데이통신하기  
+- PC와 ETboard를 USB로 데이터 통신하기  
 - 파이썬 & 마이크로파이썬   
-#esp32 #uart #python #micropython #usb
+#esp32 #uart #python #micropython #usb #pyserial
 
 
 ### 개발 환경
