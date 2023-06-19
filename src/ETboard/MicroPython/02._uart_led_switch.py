@@ -47,7 +47,7 @@ def loop():
 # receive
 def receive():    
     msg = uart.readline()             # 메시지를 1줄씩 읽음
-    if msg is None:                   # 아무것도 받지 못하면
+    if msg is None:                   # 아무것도 메시지도 받지 못하면
         led_yellow.value(HIGH)        # 노랑 LED 깜밖임
         time.sleep(0.5)      
         led_yellow.value(LOW)      
