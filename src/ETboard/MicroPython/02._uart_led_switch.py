@@ -62,7 +62,7 @@ def receive():
       time.sleep(1)      
       led_blue.value(LOW)      
       time.sleep(1)
-    elif (cmd == 4):                   # 4면 녹색 LED 깜밖
+    elif (cmd == 4):                   # 4면 녹색 LED 깜밖임
       led_green.value(HIGH)
       time.sleep(1)      
       led_green.value(LOW)      
