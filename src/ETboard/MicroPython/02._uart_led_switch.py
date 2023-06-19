@@ -54,7 +54,7 @@ def receive():
         time.sleep(0.5)      
         return
     
-    cmd = msg.rstrip()                # 받은 메시지 끝에 \n 제거
+    cmd = msg.rstrip()                # 받은 메시지 끝에 '\n' 제거
     cmd = int(cmd)                    # 문자형을 숫자로 변경
     
     if (cmd == 3):                    # 3이면 파랑 LED 깜밖임
