@@ -19,7 +19,7 @@
 1. ETboard 마이크로파이썬 자료실:   
 -. http://et.ketri.re.kr/board-micropython/  
 
-2. 동영상
+2. 동영상:  
 -. https://www.youtube.com/watch?v=lA2C4mfzHj4&list=PL08G-YUOt0DRY50wav6gVc2NgJCm0D7jL  
 
 ### Library
