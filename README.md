@@ -3,25 +3,20 @@
 
 
 ## 개발 환경 
-1. MicroPython   
--. Thonny   
--. 이티보드 홈페이지 참고   
+1. ETboard
+-. MicroPython v1.16
+-. Thonny v3.3.11 <- 중요 :warning:  
+-. 중요 모듈: UART 
  
 
-2. Python: 
--. Python 3.10 
+2. PC: 
+-. Python v3.10 
 -. pyCharm 또는 Jupyter Nodebook
 -. 중요 모듈: pySerial
- 
-### 하드웨어
--. ETboard V1.1 이상
-
-
-### 프로그램
--.
    
 
 ### Reference
-
+-. ETboard 마이크로파이썬 : http://et.ketri.re.kr/board-micropython/
+-. 동영상 : https://www.youtube.com/watch?v=lA2C4mfzHj4&list=PL08G-YUOt0DRY50wav6gVc2NgJCm0D7jL 
 
 ### Library
