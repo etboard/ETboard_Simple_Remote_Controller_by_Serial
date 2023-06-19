@@ -4,7 +4,7 @@
 # Author       :
 # Created Date : 2023.06.16
 # Reference    :
-# Modified     :
+# Modified     : 2023.06.19 : SCS : To add comment
 # ******************************************************************************************
 
 
@@ -13,7 +13,7 @@ import time                             # 시간 모듈 가져오기
 import serial                           # 시리얼 통신 모듈
 
 # global variable
-com_port = 'COM6'                       # 시리얼 포트 번호
+com_port = 'COM4'                       # 시리얼 포트 번호
 ser = serial.Serial()                   # 시리얼 포트
 
 
@@ -23,7 +23,7 @@ def setup():
     ser.baudrate = 115200               # 이티보드 시리얼 통신 속도 115,200
     ser.port = com_port                 # 시리얼 통신 포트 지정
     ser.open()                          # 시리얼 통신 포트 열기
-    
+
 
 # main
 def loop():
@@ -32,14 +32,14 @@ def loop():
 
 
 # send_etboard
-def send_etboard():
-    msg = "3"
+def send_etboard():                     
+    msg = "3"                           # 메시지 파랑 LED 깜밖이라는 메시지 '3' 보내기
     result = bytes(msg + '\n', 'utf-8')
     ser.write(result)
     print('send ' + msg + ' to blink blue led')
     time.sleep(3)
 
-    msg = "4"
+    msg = "4"                           # 메시지 파랑 LED 깜밖이라는 메시지 '4' 보내기
     result = bytes(msg + '\n', 'utf-8')
     ser.write(result)
     print('send ' + msg + ' to blink green led')
