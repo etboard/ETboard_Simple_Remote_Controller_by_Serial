@@ -1,4 +1,4 @@
-# ETboard USB(시리얼) 데이터 통신
+# ETboard USB 데이터 통신
 - 파이썬 및 마이크로파이썬 
 
 
@@ -11,7 +11,7 @@
 
 2. PC:  
 -. Python v3.10  
--. pyCharm 또는 Jupyter Nodebook  
+-. pyCharm 또는 Jupyter Notebook  
 -. 중요 모듈: pySerial  
    
 
