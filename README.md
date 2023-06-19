@@ -1,6 +1,6 @@
 # ETboard - USB 데이터 통신
 - PC<-- (USB) --> ETboard 데이터 통신하기  
-- PC에서 파이썬 프로그램으로 ETboard의 LED ON/OFF 제어하기  
+- PC에서 파이썬 프로그램으로 ETboard의 LED를 ON/OFF 제어하기  
 - 파이썬 & 마이크로파이썬   
 #esp32 #uart #python #micropython #usb #pyserial
 
