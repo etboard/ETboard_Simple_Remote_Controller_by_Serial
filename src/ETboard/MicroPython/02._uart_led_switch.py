@@ -30,7 +30,7 @@ def setup():
     led_green.init(Pin.OUT)           # 초록 LED를 출력모드 설정
     led_yellow.init(Pin.OUT)          # 노랑 LED를 출력모드 설정
     uart.init(baudrate=115200,        # 시리얼 통신 속도 지정
-              timeout=1000,           # 최대 1초만 대기
+              timeout=1000,           # 최대 1초만 수신 대기
               tx=1, rx=3)             # 이티보드 통신 핀 번호 지정
 
 
@@ -46,7 +46,7 @@ def loop():
 
 # receive
 def receive():    
-    msg = uart.readline()             # read a line
+    msg = uart.readline()             # 메시지를 1줄씩 읽음
     if msg is None:                   # 아무것도 받지 못하면
         led_yellow.value(HIGH)        # 노랑 LED 깜밖임
         time.sleep(0.5)      
