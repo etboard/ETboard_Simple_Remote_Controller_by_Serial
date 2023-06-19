@@ -7,7 +7,7 @@
 ### 개발 환경
 1. ETboard  
 -. MicroPython v1.16  
--. Thonny v3.3.11 <- 중요 :warning:    
+-. Thonny v3.3.11 <- :warning: 버전 중요     
 -. 중요 모듈: UART  
  
 
