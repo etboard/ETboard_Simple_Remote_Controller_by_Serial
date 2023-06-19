@@ -1,6 +1,6 @@
-# ETboard USB 데이터 통신
+# ETboard - USB 데이터 통신
 - 파이썬 및 마이크로파이썬 
-
+#esp32 #uart #python #micropython #usb
 
 ### 개발 환경
 1. ETboard  
